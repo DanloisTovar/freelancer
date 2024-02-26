@@ -1,3 +1,18 @@
+/* hack para que las medidas rem se adapten mejor a los dispositivos */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 16px;
+}
+
 h1 {
-	color: cyan;
+	text-align: center;
+	/*width: 20rem;  1rem = 10px eso quiere decir que 20rem = 200px */
+	font-size: 3.8rem;
+}
+
+span {
+	font-size: 2rem;
 }
